@@ -11,7 +11,7 @@ class infoCard extends React.Component {
           <Modal.Title>{this.props.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={this.props.imgUrl} alt ={this.props.title} className="infoImg"  />
+          <img src={this.props.imgUrl} alt={this.props.title} className="infoImg" />
           <p>{this.props.Description}</p>
         </Modal.Body>
         <Modal.Footer>
@@ -20,7 +20,7 @@ class infoCard extends React.Component {
           </Button>
         </Modal.Footer>
       </Modal>
-    )
+    );
   }
 }
-export default infoCard
+export default infoCard;
