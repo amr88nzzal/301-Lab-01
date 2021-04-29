@@ -15,13 +15,25 @@ main{
   position: relative;
   width: 100%;
 }
-#root{
 
+#root {
+  width: 100%;
+  position: relative;
 }
 #x {
+  position:relative;
+  width: 100%;
+  display:inline-flex;
+  flex-wrap: wrap;
+}
 
-text-align: center;
-  width: 25%;
-  margin: 3px;
-
+#x div{
+  position:relative;
+    width: 250px;
+    height: 50%;
+    margin: 5px;
+  }
+.infoImg{
+  width: 100%;
+  height: 100%;
 }
