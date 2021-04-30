@@ -20,14 +20,14 @@ main{
   width: 100%;
   position: relative;
 }
-#x {
+#x div {
   position:relative;
   width: 100%;
   display:inline-flex;
   flex-wrap: wrap;
 }
 
-#x div{
+#x div div{
   position:relative;
     width: 250px;
     height: 50%;
